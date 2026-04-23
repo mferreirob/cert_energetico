@@ -55,7 +55,7 @@ Se probaron varias configuraciones de modelos **XGB** y **LGBM**, y hasta se int
 ### 🚀 Inferencia y Aplicación (`app.py`)
 Interfaz web interactiva desarrollada con **Gradio**.
 
-![Interfaz de la aplicación](reports/capturas_API/ejemplo_1.jpg)
+![Interfaz de la aplicación](reports/capturas_API/ejemplo_1.JPG)
 
 ## 🗄️ 6. Validación de Hipótesis y SQL
 
