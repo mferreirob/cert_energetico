@@ -1,0 +1,50 @@
+# ==============================================================================
+# 1. DATOS (EL CORAZÓN DEL PROYECTO)
+# ==============================================================================
+
+# Ignoramos la carpeta de datos brutos (XML y CSVs de 1.2M sin procesar)
+data/raw/
+
+# Ignoramos los CSVs intermedios del pre-procesado
+data/clean/pre_clean/
+
+# IGNORAMOS LOS ARCHIVOS ORIGINALES DE 150MB
+# Estos archivos NO se subirán a GitHub porque superan el límite de 100MB
+data/clean/*_FULL.csv
+
+# PERMITIMOS los archivos de muestra (los que creaste con el script de 45MB)
+# Git los verá y los subirá porque NO coinciden con el patrón *_FULL.csv
+!data/clean/df_regression.csv
+!data/clean/df_analisis_bi.csv
+
+# ==============================================================================
+# 2. MODELOS Y MLOPS
+# ==============================================================================
+
+# Ignoramos la base de datos y los experimentos de MLFlow (pesan mucho y son locales)
+mlruns/
+mlflow.db
+
+# Ignoramos todos los modelos de prueba para no saturar el repo
+models/model1_*
+models/model2_*
+models/model3_*
+models/model4_*
+models/model6_*
+models/model7_*
+models/model8_*
+
+# Dejamos que suba el modelo final
+!models/model5_tuned_lightgbm_target_encoder.pkl
+
+# ==============================================================================
+# 3. BASURA TÉCNICA (PYTHON / VS CODE)
+# ==============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.vscode/
+.env
+*.log
