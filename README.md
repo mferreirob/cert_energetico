@@ -55,27 +55,27 @@ Se probaron varias configuraciones de modelos **XGB** y **LGBM**, y hasta se int
 ### 🚀 Inferencia y Aplicación (`app.py`)
 Interfaz web interactiva desarrollada con **Gradio**.
 
-![Interfaz de la aplicación](reports/capturas_API\ejemplo_1.jpg)
+![Interfaz de la aplicación](reports/capturas_API/ejemplo_1.jpg)
 
 ## 🗄️ 6. Validación de Hipótesis y SQL
 
 Validación de tendencias mediante consultas directas para asegurar la coherencia física de los datos.
 
-![Consulta SQL de ejemplo](reports\capturas_SQL\consulta1.JPG)
+![Consulta SQL de ejemplo](reports/capturas_SQL/consulta1.JPG)
 
 ## 📊 7. Visualización y Business Intelligence (Tableau)
 
 El proyecto culmina con un Dashboard interactivo en **Tableau**.
 
 ### 🌐 Análisis Geográfico y Climático
-![Mapa de Andalucía y Clima](reports\capturas_tableau\2_geografia_y_clima.JPG)
+![Mapa de Andalucía y Clima](reports/capturas_tableau/2_geografia_y_clima.JPG)
 
 ### 🏠 Características de la Edificación y Evolución
-![Características de la Vivienda](reports\capturas_tableau\3_caracteristicas_viviendas.JPG)
+![Características de la Vivienda](reports/capturas_tableau/3_caracteristicas_viviendas.JPG)
 
 ### 📈 Evolución temporal
 
-![Evolución Temporal](reports\capturas_tableau\4_evoucion_temporal.JPG)
+![Evolución Temporal](reports/capturas_tableau/4_evoucion_temporal.JPG)
 
 ### 💡 Conclusiones del Proyecto
 1. **Predominancia de la Envolvente:** El modelo de Machine Learning y el análisis SQL coinciden: la Compacidad y el Aislamiento (Normativa) tienen un impacto superior en el consumo que la ubicación geográfica. Un edificio mal diseñado en Málaga puede consumir más que uno eficiente en Granada.
